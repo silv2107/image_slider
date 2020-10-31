@@ -8,10 +8,10 @@ function slideShow(imageElement, array, time, mouseEvent = true, clickEvent = fa
     let run = true;
     let index = 0;
     function showImage(imageIndex) {
-        image.src = images[imageIndex];                       
+        imageElement.src = array[imageIndex];                       
     }
 
-    image.src = images[0];
+    imageElement.src = array[0];
 
     if(mouseEvent){
         imageElement.addEventListener("mouseenter", function(){
@@ -28,14 +28,14 @@ function slideShow(imageElement, array, time, mouseEvent = true, clickEvent = fa
         buttonLeft.addEventListener('click', ()=> {
             index--;
             if(index < 0) {
-                index = images.length - 1;
+                index = array.length - 1;
             }
             showImage(index);
         });
 
         buttonRight.addEventListener('click', ()=> {
             index++;
-            if(index > images.length - 1) {
+            if(index > array.length - 1) {
                 index = 0;
             }
             showImage(index);
@@ -49,7 +49,7 @@ function slideShow(imageElement, array, time, mouseEvent = true, clickEvent = fa
         }
     
         index++;
-        if(index > images.length - 1) {
+        if(index > array.length - 1) {
               index = 0;
         }
         showImage(index)
