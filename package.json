@@ -1,6 +1,6 @@
 {
   "name": "@silv21/image_slider",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create an image slider using the slider function with five parameters",
   "main": "index.js",
   "scripts": {
