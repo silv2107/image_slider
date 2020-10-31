@@ -3,7 +3,7 @@
 // var buttonLeft = document.querySelector('#buttonLeft');
 // var buttonRight = document.querySelector('#buttonRight');
 
-function slideShow(image, images, time, mouseEvent = true, clickEvent = false){
+function slideShow(imageElement, array, time, mouseEvent = true, clickEvent = false){
     
     let run = true;
     let index = 0;
