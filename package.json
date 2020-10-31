@@ -1,0 +1,26 @@
+{
+  "name": "image_slider",
+  "version": "1.0.0",
+  "description": "Create an image slider using the slider function with five parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silv2107/image_slider.git"
+  },
+  "keywords": [
+    "slider",
+    "image",
+    "click event",
+    "mouse event",
+    "set interval"
+  ],
+  "author": "Silviu Iosif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silv2107/image_slider/issues"
+  },
+  "homepage": "https://github.com/silv2107/image_slider#readme"
+}
